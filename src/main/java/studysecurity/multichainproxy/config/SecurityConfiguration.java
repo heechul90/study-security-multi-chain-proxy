@@ -14,7 +14,7 @@ import studysecurity.multichainproxy.core.domain.student.StudentManager;
 import studysecurity.multichainproxy.core.domain.teacher.TeacherManager;
 
 @Order(2)
-@EnableWebSecurity(debug = true)
+@EnableWebSecurity(debug = false)
 @EnableMethodSecurity(prePostEnabled = true)
 @RequiredArgsConstructor
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
